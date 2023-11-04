@@ -9,14 +9,15 @@ export const StatisticSection = styled.section`
 export const StatisticTitle = styled.h2`
   font-size: 28px;
   font-weight: 500;
-  line-height: 1.1;
   color: ${p => p.theme.colors.black};
 `;
 
 export const StatisticList = styled.ul`
   display: flex;
   flex-direction: row;
-  border: 1px solid ${p => p.theme.colors.black};
+  margin-top: 0px;
+  margin-bottom: 50px;
+  padding: 0px;
 `;
 
 function getRandomColor() {
