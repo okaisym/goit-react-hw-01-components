@@ -34,6 +34,7 @@ margin-bottom: 5px;
 `
 
 export const ProfileDetails = styled.p`
+font-family: Arial, sans-serif;
 color: gray;
 margin: 5px;
 font-size: 13px;
@@ -45,6 +46,7 @@ border-radius: 80%;
 `
 
 export const StatsSpans = styled.span`
+font-family: Arial, sans-serif;
 display: flex;
 align-items: center;
 font-size: 14px;
@@ -53,6 +55,7 @@ justify-content: center;
 `
 
 export const StatsNumber = styled.span`
+font-family: Arial, sans-serif;
 font-weight: 700;
 font-size: 16px;
 display: flex;

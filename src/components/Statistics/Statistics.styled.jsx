@@ -7,6 +7,7 @@ export const StatisticSection = styled.section`
 `;
 
 export const StatisticTitle = styled.h2`
+font-family: Arial, sans-serif;
   font-size: 28px;
   font-weight: 500;
   color: ${p => p.theme.colors.black};
@@ -40,6 +41,7 @@ export const StatisticItem = styled.li`
 `;
 
 export const StatisticText = styled.span`
+font-family: Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.2;

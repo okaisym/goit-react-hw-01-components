@@ -5,6 +5,7 @@ background-color: #7CB9E8;
 `
 
 export const SectionText = styled.th`
+font-family: Arial, sans-serif;
 padding: 10px;
 text-align: center;
 width: 200px;`
@@ -13,10 +14,12 @@ export const TableBody = styled.tbody`
 background-color: #B9D9EB`;
 
 export const TableCell = styled.td`
+font-family: Arial, sans-serif;
 padding: 10px;
 text-align: center;
 `
 export const TableRow = styled.tr`
+font-family: Arial, sans-serif;
 border: 1px solid #ddd;
 &:nth-of-type(even) {
   background-color: #f2f2f2;
